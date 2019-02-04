@@ -14,12 +14,14 @@
 */
 
 /* VideoPlayer Styles */
+/* Set video to display of block. */
 video {
     display: block;
     width: 90%;
     margin: 5px auto;
 }
 
+/* Media queries for smaller devices set video to float of right with a margin of 10px and width of 360px. */
 @media only screen and (min-width: 521px) {
     video {
         width: 360px;
@@ -29,6 +31,8 @@ video {
 }
 
 /* Track Styles */
+
+/* Stylized cues in the video with a class of Track. Set font to 1.3em san-serif with a pink color and transparent white background. */
 ::cue(.Track) {
     font-family: sans-serif;
     font-size: 1.3em;
